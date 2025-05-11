@@ -6,8 +6,15 @@
 0012: 01E80308             --     1000 delay
 0016: 040200002A           --     0 0 servo
 001B: 01E80308             --     1000 delay
-001F:                      --     
-001F: 060000               -- repeat
+001F:                      -- 
+001F:                      -- 
+001F:                      -- 
+001F: 0304401F05002A       --     8000 5 servo
+0026: 01F40108             --     500 delay
+002A: 0304A00F05002A       --     4000 5 servo
+0031: 01F40108             --     500 delay
+0035:                      --     
+0035: 060000               -- repeat
 
 Subroutines:
 Hex Decimal Address Name

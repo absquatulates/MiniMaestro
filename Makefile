@@ -1,4 +1,4 @@
-DEVICE_ID = 00183433
+DEVICE_ID = 00420724
 
 SCRIPT ?=
 
@@ -26,3 +26,7 @@ status:
 
 list:
 	$(USCCMD) --list
+
+config:
+
+	$(USCCMD) --device $(DEVICE_ID) --configure ~/Downloads/maestro-linux/current_config.txt
