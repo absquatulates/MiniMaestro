@@ -1,0 +1,11 @@
+0000:                      -- begin
+0000: 0304A00F00002A       --  4000 0 servo #start
+0007: 01F40108             --  500 delay
+000B: 0304401F00002A       --      8000 0 servo
+0012: 01E80308             --  1000 delay
+0016: 040200002A           --  0 0 servo
+001B: 01E80308             --  1000 delay
+001F: 060000               -- repeat
+
+Subroutines:
+Hex Decimal Address Name

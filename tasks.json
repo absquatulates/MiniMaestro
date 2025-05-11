@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Upload Maestro Script",
+        "type": "shell",
+        "command": "~/Downloads/maestro-linux/UscCmd",
+        "args": ["--program", "lamp.txt", "--save"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  
