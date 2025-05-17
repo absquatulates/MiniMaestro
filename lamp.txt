@@ -1,4 +1,5 @@
 begin
+
     4000 0 servo    #start
     500 delay       #start
 
@@ -6,12 +7,5 @@ begin
     1000 delay
     0 0 servo
     1000 delay
-
-
-
-    8000 5 servo
-    500 delay
-    4000 5 servo
-    500 delay
     
 repeat
